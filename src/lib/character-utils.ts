@@ -18,11 +18,15 @@ export function loadCharacterFromJSON(jsonData: string): DnDCharacter {
   }
 }
 
-export function validateCharacter(character: any): character is DnDCharacter {
+export function validateCharacter(
+  character: unknown
+): character is DnDCharacter {
   // Grundlegende Validierung
   if (!character || typeof character !== "object") {
     return false;
   }
+
+  const charObj = character as Record<string, unknown>;
 
   // Überprüfe ob alle erforderlichen Top-Level-Felder vorhanden sind
   const requiredFields = [
@@ -35,16 +39,14 @@ export function validateCharacter(character: any): character is DnDCharacter {
   ];
 
   for (const field of requiredFields) {
-    if (!character[field] || typeof character[field] !== "object") {
+    if (!charObj[field] || typeof charObj[field] !== "object") {
       return false;
     }
   }
 
   // Validiere basic_info
-  if (
-    !character.basic_info.name ||
-    typeof character.basic_info.name !== "string"
-  ) {
+  const basicInfo = charObj.basic_info as Record<string, unknown>;
+  if (!basicInfo.name || typeof basicInfo.name !== "string") {
     return false;
   }
 

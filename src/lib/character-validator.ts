@@ -358,7 +358,7 @@ function validateAbilityScores(character: DnDCharacter) {
 function validateClass(character: DnDCharacter) {
   const errors: ValidationError[] = [];
   const warnings: ValidationWarning[] = [];
-  let penalty = 0;
+  const penalty = 0;
 
   const className = character.basic_info.class.toLowerCase();
   const classInfo = CLASS_DATA[className];
@@ -399,7 +399,7 @@ function validateClass(character: DnDCharacter) {
 function validateRace(character: DnDCharacter) {
   const errors: ValidationError[] = [];
   const warnings: ValidationWarning[] = [];
-  let penalty = 0;
+  const penalty = 0;
 
   const raceName = character.basic_info.race.toLowerCase().replace(/\s+/g, "");
   const raceInfo = RACE_DATA[raceName];
@@ -485,7 +485,7 @@ function validateHitPoints(character: DnDCharacter) {
 function validateSkills(character: DnDCharacter) {
   const errors: ValidationError[] = [];
   const warnings: ValidationWarning[] = [];
-  let penalty = 0;
+  const penalty = 0;
 
   const proficiencyBonus = calculateProficiencyBonus(
     character.basic_info.level
@@ -545,7 +545,7 @@ function validateSkills(character: DnDCharacter) {
 function validateSpellcasting(character: DnDCharacter) {
   const errors: ValidationError[] = [];
   const warnings: ValidationWarning[] = [];
-  let penalty = 0;
+  const penalty = 0;
 
   const className = character.basic_info.class.toLowerCase();
   const classInfo = CLASS_DATA[className];

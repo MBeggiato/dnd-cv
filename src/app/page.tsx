@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -57,7 +57,7 @@ import {
 import { toast } from "sonner";
 import { validateCharacter } from "@/lib/character-validator";
 
-export default function Home() {
+function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [currentCharacter, setCurrentCharacter] = useState<DnDCharacter | null>(
@@ -769,5 +769,13 @@ export default function Home() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div>Laden...</div>}>
+      <HomeContent />
+    </Suspense>
   );
 }
