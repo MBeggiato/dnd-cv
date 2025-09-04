@@ -1,0 +1,92 @@
+{
+  "basic_info": {
+    "name": "Xarion Vey",
+    "race": "Drow (Dark Elf)",
+    "class": "Rogue",
+    "subclass": "Arcane Trickster",
+    "level": 5,
+    "background": "Noble",
+    "alignment": "Chaotic Neutral",
+    "experience_points": 6500,
+    "profile_image": "character-images/Xarion-vey.png"
+  },
+  "ability_scores": {
+    "strength": { "score": 10, "modifier": 0 },
+    "dexterity": { "score": 18, "modifier": 4 },
+    "constitution": { "score": 14, "modifier": 2 },
+    "intelligence": { "score": 14, "modifier": 2 },
+    "wisdom": { "score": 12, "modifier": 1 },
+    "charisma": { "score": 16, "modifier": 3 }
+  },
+  "hit_points": {
+    "max": 38,
+    "current": 38,
+    "temporary": 0
+  },
+  "armor_and_movement": {
+    "armor_class": 15,
+    "initiative": 4,
+    "speed": 30
+  },
+  "skills": {
+    "stealth": 8,
+    "deception": 7,
+    "persuasion": 6,
+    "sleight_of_hand": 7,
+    "perception": 5,
+    "investigation": 6
+  },
+  "saving_throws": {
+    "dexterity": 7,
+    "intelligence": 4,
+    "strength": 0,
+    "constitution": 2,
+    "wisdom": 1,
+    "charisma": 3
+  },
+  "attacks_and_spellcasting": [
+    {
+      "name": "Rapier",
+      "type": "Melee Weapon",
+      "attack_bonus": 7,
+      "damage": "1d8+4 piercing"
+    },
+    {
+      "name": "Shortbow",
+      "type": "Ranged Weapon",
+      "attack_bonus": 7,
+      "damage": "1d6+4 piercing",
+      "ammunition": 20
+    }
+  ],
+  "features_and_traits": [
+    "Sneak Attack (3d6)",
+    "Cunning Action",
+    "Mage Hand Legerdemain",
+    "Uncanny Dodge",
+    "Darkvision (120 ft)",
+    "Drow Magic: Dancing Lights, Faerie Fire, Darkness (CHA-based)",
+    "Sunlight Sensitivity"
+  ],
+  "spellcasting": {
+    "spell_slots": {},
+    "known_spells": ["Mage Hand", "Dancing Lights", "Faerie Fire", "Darkness"],
+    "spell_attack_bonus": 5,
+    "spell_save_dc": 13
+  },
+  "equipment": [
+    "Rapier",
+    "Shortbow (20 Pfeile)",
+    "Studded Leather Armor",
+    "Dungeoneer's Pack",
+    "Siegelring (Noble)"
+  ],
+  "languages": ["Common", "Elvish", "Undercommon"],
+  "notes": {
+    "description": "Xarion Vey ist ein verstoßener Drow-Adliger, der nach einer Intrige seiner Familie ins Exil gezwungen wurde. Er lebt nun im Schatten der Oberflächenwelt, sammelt Geheimnisse und nutzt seine Klinge wie auch seine Worte, um sich Vorteile zu verschaffen. Nach außen charmant und kultiviert, aber zynisch und misstrauisch. Er arbeitet am besten, wenn andere die Aufmerksamkeit auf sich ziehen, während er aus dem Dunkel zuschlägt.",
+    "personality_traits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": ""
+  }
+}

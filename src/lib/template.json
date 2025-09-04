@@ -1,0 +1,74 @@
+{
+  "basic_info": {
+    "name": "",
+    "race": "",
+    "class": "",
+    "subclass": "",
+    "level": 1,
+    "background": "",
+    "alignment": "",
+    "experience_points": 0
+  },
+  "ability_scores": {
+    "strength": { "score": 0, "modifier": 0 },
+    "dexterity": { "score": 0, "modifier": 0 },
+    "constitution": { "score": 0, "modifier": 0 },
+    "intelligence": { "score": 0, "modifier": 0 },
+    "wisdom": { "score": 0, "modifier": 0 },
+    "charisma": { "score": 0, "modifier": 0 }
+  },
+  "hit_points": {
+    "max": 0,
+    "current": 0,
+    "temporary": 0
+  },
+  "armor_and_movement": {
+    "armor_class": 0,
+    "initiative": 0,
+    "speed": 0
+  },
+  "skills": {
+    "acrobatics": 0,
+    "animal_handling": 0,
+    "arcana": 0,
+    "athletics": 0,
+    "deception": 0,
+    "history": 0,
+    "insight": 0,
+    "intimidation": 0,
+    "investigation": 0,
+    "medicine": 0,
+    "nature": 0,
+    "perception": 0,
+    "performance": 0,
+    "persuasion": 0,
+    "religion": 0,
+    "sleight_of_hand": 0,
+    "stealth": 0,
+    "survival": 0
+  },
+  "saving_throws": {
+    "strength": 0,
+    "dexterity": 0,
+    "constitution": 0,
+    "intelligence": 0,
+    "wisdom": 0,
+    "charisma": 0
+  },
+  "attacks_and_spellcasting": [],
+  "features_and_traits": [],
+  "spellcasting": {
+    "spell_slots": {},
+    "known_spells": [],
+    "spell_attack_bonus": 0,
+    "spell_save_dc": 0
+  },
+  "equipment": [],
+  "notes": {
+    "description": "",
+    "personality_traits": "",
+    "ideals": "",
+    "bonds": "",
+    "flaws": ""
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "Lyra Brightshield",
+    "race": "Human (Variant)",
+    "class": "Paladin",
+    "subclass": "Oath of Devotion",
+    "level": 5,
+    "background": "Folk Hero",
+    "alignment": "Lawful Good",
+    "experience_points": 6500,
+    "profile_image": "character-images/Lyria_Lichtschild.png"
+  },
+  "ability_scores": {
+    "strength": { "score": 17, "modifier": 3 },
+    "dexterity": { "score": 10, "modifier": 0 },
+    "constitution": { "score": 14, "modifier": 2 },
+    "intelligence": { "score": 10, "modifier": 0 },
+    "wisdom": { "score": 12, "modifier": 1 },
+    "charisma": { "score": 16, "modifier": 3 }
+  },
+  "hit_points": {
+    "max": 44,
+    "current": 44,
+    "temporary": 0
+  },
+  "armor_and_movement": {
+    "armor_class": 19,
+    "initiative": 0,
+    "speed": 30
+  },
+  "skills": {
+    "athletics": 6,
+    "persuasion": 6,
+    "animal_handling": 4,
+    "survival": 4
+  },
+  "saving_throws": {
+    "strength": 3,
+    "dexterity": 0,
+    "constitution": 2,
+    "intelligence": 0,
+    "wisdom": 4,
+    "charisma": 6
+  },
+  "attacks_and_spellcasting": [
+    {
+      "name": "Longsword",
+      "type": "Melee Weapon",
+      "attack_bonus": 7,
+      "damage": "1d8+3 slashing",
+      "versatile_damage": "1d10 slashing"
+    }
+  ],
+  "features_and_traits": [
+    "Divine Sense (5/day)",
+    "Lay on Hands (25 HP Pool)",
+    "Fighting Style: Defense (+1 AC)",
+    "Divine Smite",
+    "Extra Attack (2 attacks per turn)",
+    "Aura of Protection (+Charisma bonus to saving throws for allies)"
+  ],
+  "spellcasting": {
+    "spell_slots": {
+      "1": 4,
+      "2": 2,
+      "3": 0
+    },
+    "known_spells": [
+      "Protection from Evil and Good",
+      "Sanctuary",
+      "Lesser Restoration",
+      "Zone of Truth"
+    ],
+    "spell_attack_bonus": 6,
+    "spell_save_dc": 14
+  },
+  "equipment": [
+    "Longsword",
+    "Shield (with holy symbol)",
+    "Chain Mail",
+    "Adventurer's Pack",
+    "Holy Symbol"
+  ],
+  "notes": {
+    "description": "Lyra Brightshield ist eine junge Paladin-Kriegerin, die in einem kleinen Dorf aufgewachsen ist. Anders als andere Helden ist sie von Natur aus eher schüchtern und zurückhaltend. Sie hat großen Mut, doch zögert sie manchmal, im Mittelpunkt zu stehen, und wägt ihre Schritte vorsichtig ab.\n\nSie ist warmherzig, sanft und stellt sich nur dann aktiv zwischen Gefährten und Gefahr, wenn sie sich sicher genug fühlt oder die Situation es unbedingt erfordert. Ihre Stärke liegt nicht in lautstarker Tapferkeit, sondern in stillem Mut, umsichtigem Handeln und einer tiefen Fürsorge für andere.\n\nLyra spricht oft leise, hört mehr zu, bevor sie handelt, und ihr Charisma zeigt sich in ruhiger Überzeugungskraft statt in aufdringlicher Präsenz. Ihre Heilkräfte nutzt sie besonnen, um Verbündete zu unterstützen, und sie sucht oft Rat bei der Gruppe, bevor sie Entscheidungen trifft."
+  }
+}
